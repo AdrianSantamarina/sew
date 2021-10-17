@@ -19,19 +19,30 @@
         </nav>
         <h1>Formulario de datos para recopilar opiniones sobre Brendan Eich</h1>
         <form name="datos">
-            <input type ="text"> Nombre<br><br>
-            <input type ="text"> Apellidos<br><br>
-            <input type ="email"> Email<br><br>
-            <input type ="date"> Edad<br><br>
-            <label> Brendan Eich es conocido por ser uno de los creadores de este lenguaje de programacion <br> 
-                    ¿Sabrías decir cuál? </label><br>
-            <input type ="checkbox" value="Java"> Java<br><br>
-            <input type ="checkbox" value="C++"> C++<br><br>
-            <input type ="checkbox" value="Phyton"> Phyton<br><br>
-            <label> ¿De que famosa empresa fue CEO? </label><br>
-            <input type ="checkbox" value="Google"> Google<br><br>
-            <input type ="checkbox" value="Microsoft"> Microsoft<br><br>
-            <input type ="checkbox" value="Mozilla"> Mozilla<br><br>
+            <label for="nombre">Nombre:</label>     <input type ="text"> Nombre<br><br>
+            <label for="apellidos">Apellidos:</label>     <input type ="text"> Apellidos<br><br>
+            <label for="email">Email:</label>   <input type ="email"> Email<br><br>
+            <label for="FechaNac">Fecha de nacimiento:</label>     <input type ="date"> Edad<br><br>
+            
+            <fieldset>
+                <legend> ¿Cuál de los trabajos de este informático le ha parecido mas interesante? </legend><br>
+                <input type ="checkbox" value="Desarrollo de Javascript"> Desarrollo de Javascript<br><br>
+                <input type ="checkbox" value="Micronúcleo y código de DSP"> Micronúcleo y código de DSP<br><br>
+                <input type ="checkbox" value="Fundación de Mozilla"> Fundación de Mozilla<br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend> ¿Le ha servido de ayuda esta información? </legend><br>
+                <input type ="checkbox" value="Si"> Si<br><br>
+                <input type ="checkbox" value="No"> No<br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend> Del 1 al 10 ¿Con que número valoraria nuestra página web? </legend><br>
+                <input type ="text" inputmode="numeric" pattern="[1-10]{8,19}"> <br><br>
+            </fieldset>
+
+            <input type ="button" value="Terminar formulario"> <br><br>
         </form>
     </body>
 </html>
