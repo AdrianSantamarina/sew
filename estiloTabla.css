@@ -70,6 +70,14 @@ a {
     color: white;
 }
 
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    color: white; 
+}
+
 caption {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
