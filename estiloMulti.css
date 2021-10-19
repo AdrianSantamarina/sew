@@ -16,8 +16,8 @@ header {
 main {
     grid-area: m;
     background: royalblue;
-    margin-bottom: 6px;
-    border: 3px solid white;
+    margin-bottom: 0.375em;
+    border: 0.188em solid white;
 }
 
 address {
@@ -27,7 +27,7 @@ address {
     font-size: medium;
     color: dodgerblue;
     background: royalblue;
-    border: 3px solid white;
+    border: 0.188em solid white;
     grid-area: a;
 }
 
@@ -50,7 +50,7 @@ h1 {
     font-style: normal;
     font-size: xx-large;
     text-align: center;
-    border: 3px solid white;
+    border: 0.1em solid white;
     background: royalblue;
     color: white; 
 }
@@ -73,6 +73,6 @@ footer p {
     font-style: normal;
     font-size: medium;
     color: white;
-    border: 3px solid white;
+    border: 0.188em solid white;
     background: royalblue;
 }

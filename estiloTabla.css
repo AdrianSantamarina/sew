@@ -26,7 +26,7 @@ address {
     font-size: medium;
     color: dodgerblue;
     background: royalblue;
-    border: 3px solid white;
+    border: 0.188em solid white;
 }
 
 h1 {
@@ -35,13 +35,14 @@ h1 {
     font-style: normal;
     font-size: xx-large;
     text-align: center;
-    border: 3px solid white;
+    border: 0.1em solid white;
     background: royalblue;
     color: white; 
 }
 
 table {
     border-collapse: collapse;
+    margin-bottom: 0.375em;
 }
 
 table td {
@@ -50,7 +51,7 @@ table td {
     font-style: normal;
     font-size: medium;
     color: white;
-    border: 3px solid white
+    border: 0.188em solid white
 }
 
 table th {
@@ -59,11 +60,11 @@ table th {
     font-style: normal;
     font-size: x-large;
     color: white;
-    border: 3px solid white
+    border: 0.1em solid white
 }
 
 table tr {
-    border: 3px solid white
+    border: 0.188em solid white
 }
 
 a {
@@ -84,7 +85,7 @@ footer p {
     font-style: normal;
     font-size: medium;
     color: white; 
-    border: 3px solid white;
+    border: 0.188em solid white;
     background: royalblue;
 }
 

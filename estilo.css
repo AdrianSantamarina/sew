@@ -16,9 +16,9 @@ header {
 main {
     grid-area: m;
     background: royalblue;
-    border: 3px solid white;
-    margin-bottom: 6px;
-    margin-right: 6px;
+    border: 0.188em solid white;
+    margin-bottom: 0.375em;
+    margin-right: 0.375em;
 }
 
 address {
@@ -29,7 +29,7 @@ address {
     font-size: medium;
     color: dodgerblue;
     background: royalblue;
-    border: 3px solid white;
+    border: 0.188em solid white;
 }
 
 footer {
@@ -47,7 +47,7 @@ h1 {
     font-style: normal;
     font-size: xx-large;
     text-align: center;
-    border: 3px solid white;
+    border: 0.1em solid white;
     background: royalblue;
     color: white; 
 }
@@ -66,8 +66,9 @@ footer p {
     font-weight: bolder;
     font-style: normal;
     font-size: medium;
+    text-align: center;
     color: white; 
-    border: 3px solid white;
+    border: 0.188em solid white;
     background: royalblue;
 }
 
@@ -113,5 +114,5 @@ figcaption {
 }
 
 img {
-    border: 3px solid white;
+    border: 0.188em solid white;
 }
