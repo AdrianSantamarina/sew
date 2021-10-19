@@ -58,6 +58,7 @@ p {
     font-style: normal;
     font-size: medium;
     color: white; 
+    
 }
 
 footer p {
@@ -66,6 +67,8 @@ footer p {
     font-style: normal;
     font-size: medium;
     color: white; 
+    border: 3px solid white;
+    background: royalblue;
 }
 
 ul li {

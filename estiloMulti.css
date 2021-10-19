@@ -72,5 +72,7 @@ footer p {
     font-weight: bolder;
     font-style: normal;
     font-size: medium;
-    color: white; 
+    color: white;
+    border: 3px solid white;
+    background: royalblue;
 }
