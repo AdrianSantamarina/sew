@@ -66,3 +66,11 @@ p {
     font-size: medium;
     color: white; 
 }
+
+footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: medium;
+    color: white; 
+}
