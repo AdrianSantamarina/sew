@@ -1,4 +1,4 @@
-body{
+body {  /* a=0 b=0 c=1 -> specificity =   1  */
     display: grid;
     grid: "h h h"
           "m m f"  
@@ -8,12 +8,12 @@ body{
     background: cornflowerblue;
 }
 
-header {
+header {    /* a=0 b=0 c=1 -> specificity =   1  */
     grid-area: h;
     min-width: 12em;
 }
 
-main {
+main {  /* a=0 b=0 c=1 -> specificity =   1  */
     grid-area: m;
     background: royalblue;
     border: 0.188em solid white;
@@ -21,7 +21,7 @@ main {
     margin-right: 0.375em;
 }
 
-address {
+address {   /* a=0 b=0 c=1 -> specificity =   1  */
     grid-area: a;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
@@ -32,16 +32,16 @@ address {
     border: 0.188em solid white;
 }
 
-footer {
+footer {    /* a=0 b=0 c=1 -> specificity =   1  */
     grid-area: f;
     min-width: 12em;
 }
 
-a {
+a {     /* a=0 b=0 c=1 -> specificity =   1  */
     color: white;
 }
 
-h1 {
+h1 {    /* a=0 b=0 c=1 -> specificity =   1  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-style: normal;
@@ -52,7 +52,7 @@ h1 {
     color: white; 
 }
 
-p {
+p {     /* a=0 b=0 c=1 -> specificity =   1  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -61,7 +61,7 @@ p {
     
 }
 
-footer p {
+footer p {      /* a=0 b=0 c=2 -> specificity =   2  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-style: normal;
@@ -72,7 +72,7 @@ footer p {
     background: royalblue;
 }
 
-ul li {
+ul li {     /* a=0 b=0 c=2 -> specificity =   2  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -81,7 +81,7 @@ ul li {
     color: white;
 }
 
-legend {
+legend {    /* a=0 b=0 c=1 -> specificity =   1  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-style: normal;
@@ -89,7 +89,7 @@ legend {
     color: white; 
 }
 
-label {
+label {     /* a=0 b=0 c=1 -> specificity =   1  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -97,7 +97,7 @@ label {
     color: white; 
 }
 
-fieldset  {
+fieldset  {     /* a=0 b=0 c=1 -> specificity =   1  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -105,7 +105,7 @@ fieldset  {
     color: white; 
 }
 
-figcaption {
+figcaption {    /* a=0 b=0 c=1 -> specificity =   1  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -113,6 +113,6 @@ figcaption {
     color: white; 
 }
 
-img {
+img {   /* a=0 b=0 c=1 -> specificity =   1  */
     border: 0.188em solid white;
 }
