@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    grid: "h h h"
+          "m m m"
+          "a a f";
+    grid-template-columns: auto 1fr 20%;
+    grid-column: inherit;
+    background: cornflowerblue;
+}
+
+header {
+    grid-area: h;
+    min-width: 12em;
+}
+
+main {
+    grid-area: m;
+    background: royalblue;
+    margin-bottom: 6px;
+    border: 3px solid white;
+}
+
+address {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: medium;
+    color: dodgerblue;
+    background: royalblue;
+    border: 3px solid white;
+    grid-area: a;
+}
+
+footer {
+    grid-area: f;
+    min-width: 12em;
+}
+
+figure {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    color: white; 
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+    border: 3px solid white;
+    background: royalblue;
+    color: white; 
+}
+
+a {
+    color: white;
+}
